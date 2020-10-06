@@ -1,0 +1,79 @@
+
+
+/* MOBILE
+viewport size 375x812
+design size 375x5141 */
+
+/* main artboard area */
+/* 
+font-family: 'Roboto', sans-serif;
+font-family: 'Montserrat', sans-serif;
+ */
+
+
+
+mon:
+400 - normal
+700 - bold
+
+roboto:
+400 - normal
+700 - bold
+900 - black
+
+
+
+ <!-- portfolio: -->
+
+ top: 176px;
+ margin-left: 41px;
+ width: 26px;
+ height: 15px;
+ text-align: left;
+ font: normal normal normal 13px/15px Roboto;
+ letter-spacing: 0.52px;
+ color: #FFFFFF;
+ opacity: 1;
+
+ roboto, regular
+ 13px
+
+
+ <!-- name -->
+ top: 176px;
+left: 140px;
+width: 107px;
+height: 15px;
+text-align: left;
+font: normal normal bold 13px/15px Roboto;
+letter-spacing: 0.52px;
+color: #FFFFFF;
+opacity: 1;
+
+roboto bold
+13px
+
+<!-- h1 -->
+mont, bold
+40px
+top: 196px;
+left: 151px;
+width: 53px;
+height: 49px;
+text-align: left;
+font: normal normal bold 40px/49px Montserrat;
+letter-spacing: 0px;
+
+<!-- h3 -->
+mont, bold
+24px
+
+top: 296px;
+left: 41px;
+width: 219px;
+height: 29px;
+text-align: left;
+font: normal normal bold 24px/29px Montserrat;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;

@@ -1,41 +1,109 @@
-/* MOBILE
-viewport size 375x812
-design size 375x5141 */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+  color: #4d4d4d;
+  background: lightsteelblue;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
 
-/* main artboard area */
-/* body {
-  top: 0px;
-  left: 0px;
+.intro-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero {
   width: 375px;
   height: 508px;
-  background: #170303 0% 0% no-repeat padding-box;
-  border: 1px solid #707070;
-  opacity: 0.26;
-} */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.socials {
+  margin-top: 105px;
+  margin-left: 254px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-link {
+  height: 39px;
+  width: 39px;
+  margin-left: 4px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+}
+
+#linkedin {
+  height: 16px;
+  width: 16px;
+  margin-top: 10px;
+  margin-left: 12px;
+}
+
+#github {
+  height: 21px;
+  width: 20px;
+  margin-top: 9px;
+  margin-left: 9px;
+}
+
+.overlay-txt {
 
 
-/* 
-hero img block
-top: 0px;
-left: 0px;
-width: 375px;
-height: 508px;
-background: #170303 0% 0% no-repeat padding-box;
-border: 1px solid #707070;
-opacity: 0.26;
+  color: #fff;
+
+  text-align: left;
+  position: absolute;
+  margin-top: 50%;
+  margin-left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
 
 
 
 
+.profile-img {
+  margin-top: 215px;
+  margin-left: 176px;
+  width: 162px;
+  height: 162px;
+  background: transparent url("/img/profile.jpg") no-repeat;
+  background-size: cover;
+  border: 3px solid #fff;
+  border-radius: 50%;
+}
+
+.intro-blurb {
+  background: lightcoral;
+}
 
 
-*/
-
-
-
+/* Media Queries */
+@media (min-width: 768px) {
+  header img {
+    margin-left: 8px;
+  }
+}
 
 /* DESKTOP
 
 viewport size - 1920 x 1080
 design size - 1920 x 7319 */
 
+
+
+/* Desktop */
+@media (min-width: 900px) {
+
+}
