@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+  color: #4d4d4d;
+  background: lightsteelblue;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-container {
+  width: 375px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero {
+  height: 508px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.socials {
+  margin-top: 105px;
+  margin-left: 254px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-link {
+  height: 39px;
+  width: 39px;
+  margin-left: 4px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+}
+
+#linkedin {
+  height: 16px;
+  width: 16px;
+  margin-top: 10px;
+  margin-left: 12px;
+}
+
+#github {
+  height: 21px;
+  width: 20px;
+  margin-top: 9px;
+  margin-left: 9px;
+}
+
+.overlay-txt {
+  color: #fff;
+  height: 200px;
+  text-align: left;
+  margin-left: 41px;
+}
+
+#topline {
+  height: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  letter-spacing: 0.52px;
+  margin-bottom: 0px;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+#label {
+  font-weight: 400;
+}
+
+#name {
+  font-weight: 700;
+  margin-left: 18px;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  margin: 5px 0 0 0;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  margin: 8px 0 0 0;
+}
+
+.profile-img {
+  margin-top: 5px;
+  margin-left: 176px;
+  width: 162px;
+  height: 162px;
+  background: transparent url("/img/profile.jpg") no-repeat;
+  background-size: cover;
+  border: 3px solid #fff;
+  border-radius: 50%;
+}
+
+.intro {
+  background: #fff;
+}
+
+.intro div {
+  margin: 56px 36px;
+  letter-spacing: 0px;
+  line-height: 29px;
+}
+
+#symbol {
+  height: 15px;
+  margin: 7px -18px 0 0;
+  display: flex;
+  align-items: center;
+  float: left;
+}
+
+#line {
+  height: 3px;
+  width: 40px;
+  background: #78786A;
+  margin: 1px 0 0 0;
+}
+
+#dot {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background: #78786A;
+  margin-left: -5px;
+}
+
+
+
+/* responsive notes:
+review and adjust all margins
+check font sizing, line spacing, and letter spacing. check to see what things do and don't wrap. (t.ex: h1) 
+
+ /* Media Queries
+@media (min-width: 768px) {  
+  .intro-container {
+    width: 100%;
+  }
+  
+  .hero {
+    height: 656px;
+    width: 100%;
+    overflow: hidden;
+  }
+}
+
+/* Desktop 
+@media (min-width: 900px) {
+
+} */
