@@ -1,16 +1,16 @@
-
-
 /* MOBILE
 viewport size 375x812
 design size 375x5141 */
+
+/* DESKTOP
+viewport size - 1920 x 1080
+design size - 1920 x 7319 */
 
 /* main artboard area */
 /* 
 font-family: 'Roboto', sans-serif;
 font-family: 'Montserrat', sans-serif;
  */
-
-
 
 mon:
 400 - normal
@@ -23,57 +23,56 @@ roboto:
 
 
 
- <!-- portfolio: -->
-
- top: 176px;
- margin-left: 41px;
- width: 26px;
- height: 15px;
- text-align: left;
- font: normal normal normal 13px/15px Roboto;
- letter-spacing: 0.52px;
- color: #FFFFFF;
- opacity: 1;
-
- roboto, regular
- 13px
 
 
- <!-- name -->
- top: 176px;
-left: 140px;
-width: 107px;
-height: 15px;
-text-align: left;
-font: normal normal bold 13px/15px Roboto;
-letter-spacing: 0.52px;
-color: #FFFFFF;
-opacity: 1;
 
-roboto bold
-13px
 
-<!-- h1 -->
-mont, bold
-40px
-top: 196px;
-left: 151px;
-width: 53px;
-height: 49px;
-text-align: left;
-font: normal normal bold 40px/49px Montserrat;
-letter-spacing: 0px;
 
-<!-- h3 -->
-mont, bold
-24px
+**The portfolio should contain:**
+- A presentation of the tech skills that you have.
+- A presentation of some thoughts that you have around code.
+- A presentation of your projects linking to your Github.
 
-top: 296px;
-left: 41px;
-width: 219px;
-height: 29px;
-text-align: left;
-font: normal normal bold 24px/29px Montserrat;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;
+
+## Test your website 👷🏻‍♂️
+A big part of this project is to test your page so that it works for all the most used browsers and works well for people with dissabilities.
+
+### **1. Cross-browser testing**
+You should make sure that your page is looking and function like you would want in the following web browsers:
+
+- Google Chrome
+- Firefox
+- Microsoft Edge
+
+If you're on a mac or linux computer, you can use [this tool](https://developer.microsoft.com/en-us/microsoft-edge/tools/remote/) to test your site on Edge.
+
+Follow the [Workflows for cross browser testing](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/Introduction) when testing your sites.
+
+### **2. Accessibility testing**
+The next step is to make sure your webpage works well for people with disabilities. You should follow each step on the [Accessibility testing checklist](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/Accessibility) at the bottom of the page and make adjustments for those errors that you find. Feel free to discuss in Slack what you find and how to solve some issues.
+
+If you publish your website, you can use the built in screen reader on your phone for the screen reader test. Google to see how to turn it on for your phone.
+
+## How to hand in the code 🎯
+- Deploy your site to netlify
+- Post the link to the repo and your deployed site in canvas
+- Wait for the code review from your teachers
+
+
+
+**🔵  Blue Level (Minimum Requirements)**
+- The page should be built with HTML and CSS (JS if needed)
+- You should use flexbox for layout (you can use CSS grid if you're comfortable with that).
+- The page should be fully responsive. (mobile, tablet and desktop)
+- The page should look and function the same on Chrome, Firefox, and Edge.
+- The page should work well for people that use screen readers and keyboard navigation.
+- The HTML code should validate in a validation tool.
+
+Make sure you've committed and pushed a version of your project before starting with the intermediary and advanced goals.
+
+**🔴  Red Level (Intermediary Goals)**
+- Optimize your website for sharing on social media using [og:tags.](https://css-tricks.com/essential-meta-tags-social-media/)
+
+**⚫  Black Level (Advanced Goals)**
+- Give your portfolio a custom domain and connect to your deployed site. [Read more.](https://docs.netlify.com/domains-https/custom-domains/)
+

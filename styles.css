@@ -12,15 +12,16 @@ body {
 }
 
 .intro-container {
+  width: 375px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero {
-  width: 375px;
   height: 508px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/bg.jpg");
-  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -58,23 +59,47 @@ body {
 }
 
 .overlay-txt {
-
-
   color: #fff;
-
+  height: 200px;
   text-align: left;
-  position: absolute;
-  margin-top: 50%;
-  margin-left: 50%;
-  transform: translate(-50%, -50%);
-  
+  margin-left: 41px;
 }
 
+#topline {
+  height: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  letter-spacing: 0.52px;
+  margin-bottom: 0px;
+  display: flex;
+  flex-flow: row nowrap;
+}
 
+#label {
+  weight: 400;
+}
 
+#name {
+  font-weight: 700;
+  margin-left: 18px;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  margin: 5px 0 0 0;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  margin: 8px 0 0 0;
+}
 
 .profile-img {
-  margin-top: 215px;
+  margin-top: 5px;
   margin-left: 176px;
   width: 162px;
   height: 162px;
@@ -84,26 +109,35 @@ body {
   border-radius: 50%;
 }
 
-.intro-blurb {
-  background: lightcoral;
+.intro {
+  background: #fff;
+}
+
+.intro div {
+  margin: 56px 36px;
+  letter-spacing: 0px;
+  line-height: 29px;
 }
 
 
-/* Media Queries */
-@media (min-width: 768px) {
-  header img {
-    margin-left: 8px;
+/* responsive notes:
+review and adjust all margins
+check font sizing, line spacing, and letter spacing. check to see what things do and don't wrap. (t.ex: h1) 
+
+ /* Media Queries
+@media (min-width: 768px) {  
+  .intro-container {
+    width: 100%;
+  }
+  
+  .hero {
+    height: 656px;
+    width: 100%;
+    overflow: hidden;
   }
 }
 
-/* DESKTOP
-
-viewport size - 1920 x 1080
-design size - 1920 x 7319 */
-
-
-
-/* Desktop */
+/* Desktop 
 @media (min-width: 900px) {
 
-}
+} */
