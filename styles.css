@@ -209,7 +209,6 @@ h2 {
   transition: opacity 0.4s ease-out;
 } 
 
-
 .project-desc {
   margin: 14px 36px 0 36px;
   text-align: left;
@@ -239,8 +238,15 @@ span {
   text-align: center;
   margin-right: 4px;
   background: #b2baab;
-  
 }
+
+h4 {
+  font-size: 21px;
+  line-height: 25px;
+  color: #808c73;
+  margin-top: 67px;
+}
+
 
 
 
