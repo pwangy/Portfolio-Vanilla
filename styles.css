@@ -31,23 +31,23 @@ section {
 
 .socials {
   margin-top: 105px;
-  margin-left: 254px;
+  margin-left:194px;
   display: flex;
 }
 
 .social-link {
   height: 39px;
   width: 39px;
-  margin-left: 4px;
+  margin-left: 5px;
   border: 3px solid #fff;
   border-radius: 50%;
 }
 
 #linkedin {
-  height: 16px;
-  width: 16px;
+  height: 18px;
+  width: 18px;
   margin-top: 10px;
-  margin-left: 12px;
+  margin-left: 10px;
 }
 
 #github {
@@ -57,11 +57,18 @@ section {
   margin-left: 9px;
 }
 
+#email {
+  height: 25px;
+  width: 25px;
+  margin-top: 7px;
+  margin-left: 5px;
+}
+
 .overlay-txt {
   color: #fff;
   height: 200px;
   text-align: left;
-  margin-left: 41px;
+  margin: 32px 0 0 41px;
 }
 
 #topline {
@@ -97,7 +104,7 @@ h3 {
 }
 
 .profile-img {
-  margin-top: 5px;
+  margin-top: -24px;
   margin-left: 176px;
   width: 162px;
   height: 162px;
@@ -110,7 +117,7 @@ h3 {
 .box-green {
   margin-top: 3px;
   text-align: center;
-  background: #e0ebe6;
+  background: #e6e8e3;
 }
 
 .box-green div {
@@ -168,17 +175,77 @@ h2 {
 }
 
 /*  wrk */
-.thumbs {
- width: 303px;
+.box-green a {
+  text-decoration: none;
+  color: #4d4d4d;
+  cursor: pointer;
 }
 
-.title {
+.screenshot-container {
+  margin: 20px 36px 0 36px;
+  position: relative;
+}
 
+.ss {
+  width: 303px;
+  display: block;
+}
+
+.layer {
+  top: -16px;
+  height: 109px;
+  width: 303px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #b2baab;
+  line-break: 19px;
+  padding: 70px 0 0px 0;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+}
+
+.screenshot-container:hover .layer {
+  opacity: 0;
+  transition: opacity 0.4s ease-out;
+} 
+
+
+.project-desc {
+  margin: 14px 36px 0 36px;
+  text-align: left;
+}
+
+span {
+  font-weight: 700;
+  color: #808c73;
+}
+
+.desc-txt {
+  margin: 0;
+}
+
+.project-tags {
+  margin: -1px 36px 38px 36px;
+  display: flex;
+  flex-flow: row wrap;
 }
 
 .tag {
-
+  width: fit-content;
+  padding: 3px 6px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 9px;
+  line-height: 10px;
+  text-align: center;
+  margin-right: 4px;
+  background: #b2baab;
+  
 }
+
+
+
+
+
 
 
 /* responsive notes:
