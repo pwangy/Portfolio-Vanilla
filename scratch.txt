@@ -22,6 +22,11 @@ roboto:
 900 - black
 
 
+lighthouse
+aria
+https://wave.webaim.org/
+w3c validator
+and voiceover
 
 
 thumb:
@@ -33,14 +38,11 @@ desktop:
 309 tall
 
 
-
 +++++++++++++++++++++++++++++++++
 hi! 
-finish styling projects
 
-dig into formatting other sections
+
 work on tablet/desktop views
-do bg and profile pic need to be resized?
 
 fill in ::content
 
