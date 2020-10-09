@@ -6,7 +6,7 @@ body {
   letter-spacing: 1px;
   line-height: 29px;
   color: #4d4d4d;
-  background: #808c73;
+  /* background: #808c73; */
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
@@ -31,37 +31,45 @@ section {
 
 .socials {
   margin-top: 105px;
-  margin-left: 254px;
+  margin-left:194px;
   display: flex;
 }
 
 .social-link {
   height: 39px;
   width: 39px;
-  margin-left: 4px;
+  margin-left: 5px;
   border: 3px solid #fff;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 #linkedin {
-  height: 16px;
-  width: 16px;
+  height: 18px;
+  width: 18px;
   margin-top: 10px;
-  margin-left: 12px;
+  margin-left: 10px;
 }
 
 #github {
   height: 21px;
   width: 20px;
-  margin-top: 9px;
-  margin-left: 9px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+#email {
+  height: 25px;
+  width: 25px;
+  margin-top: 7px;
+  margin-left: 5px;
 }
 
 .overlay-txt {
   color: #fff;
   height: 200px;
   text-align: left;
-  margin-left: 41px;
+  margin: 32px 0 0 41px;
 }
 
 #topline {
@@ -97,7 +105,7 @@ h3 {
 }
 
 .profile-img {
-  margin-top: 5px;
+  margin-top: -24px;
   margin-left: 176px;
   width: 162px;
   height: 162px;
@@ -107,13 +115,13 @@ h3 {
   border-radius: 50%;
 }
 
-.box-green {
+.box-intro {
   margin-top: 3px;
   text-align: center;
-  background: #e0ebe6;
+  background: #e6e8e3;
 }
 
-.box-green div {
+.box-intro div {
   margin: 56px 36px;
 }
 
@@ -126,10 +134,10 @@ h3 {
 }
 
 #line {
-  height: 3px;
+  height: 2px;
   width: 40px;
   background: #808c73;
-  margin: 1px 0 0 0;
+  margin: 0;
 }
 
 #dot {
@@ -140,17 +148,17 @@ h3 {
   margin-left: -5px;
 }
 
-.left-align {
+#intro {
   text-align: left;
 }
 
 /* tech block */
-.box-wht {
-  margin: 4px;
+.box-tech {
+  margin: 3px;
   text-align: center;
 }
 
-.box-wht div {
+.box-tech div {
   margin: 35px 36px 55px 36px;
   width: 303px; 
 }
@@ -167,18 +175,300 @@ h2 {
   display: inline-block;
 }
 
-/*  wrk */
-.thumbs {
- width: 303px;
+/*  project block */
+.box-projects {
+  margin-top: 3px;
+  text-align: center;
+  background: #e6e8e3;
 }
 
-.title {
+.box-projects div {
+  margin: 35px 36px 0 36px;
+  width: 303px;
+}
 
+.box-projects a {
+  text-decoration: none;
+  color: #4d4d4d;
+  cursor: pointer;
+}
+
+.screenshot-container {
+  margin-top: 25px;
+  position: relative;
+}
+
+.ss {
+  width: 303px;
+  display: block;
+}
+
+.layer {
+  top: -16px;
+  height: 126px;
+  width: 303px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #b2baab;
+  line-break: 19px;
+  padding: 53px 0 0px 0;
+  background: rgba(0, 0, 0, 0.75);
+  position: absolute;
+}
+
+.screenshot-container:hover .layer {
+  opacity: 0;
+  transition: opacity 0.4s ease-out;
+} 
+
+.project-desc {
+  margin-top: 14px;
+  text-align: left;
+}
+
+span {
+  font-weight: 700;
+  color: #808c73;
+}
+
+.desc-txt {
+  margin: 0;
+}
+
+.project-tags {
+  margin: -1px 0 38px 0;
+  display: flex;
+  flex-flow: row wrap;
 }
 
 .tag {
-
+  width: fit-content;
+  padding: 3px 6px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 9px;
+  line-height: 10px;
+  text-align: center;
+  margin-right: 4px;
+  background: #b2baab;
 }
+
+h4 {
+  font-size: 21px;
+  line-height: 25px;
+  color: #808c73;
+  margin-top: 67px;
+}
+
+/* blog block */
+.box-blog {
+  margin: 3px;
+  text-align: center;
+}
+
+.box-blog div {
+  margin: 35px 36px 65px 36px;
+  width: 303px;
+}
+
+.box-blog a {
+  text-decoration: none;
+  color: #4d4d4d;
+  cursor: pointer;
+}
+
+.post-container {
+  margin-top: 20px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 32px;
+  display: flex;
+}
+
+.post-container- {
+  margin-top: 20px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 32px;
+  display: none;
+  /* display: flex; */
+}
+
+.date {
+  margin-top: 14px;
+  color: #808c73;
+}
+
+.post-title {
+  margin-top: -15px; 
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.post-intro {
+  margin-top: -23px;
+}
+
+.post-container-more {
+  margin-top: 20px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.date-more {
+  margin: 0 8px 0 0;
+  color: #808c73;
+  float: left;
+}
+
+.post-title-more {
+  margin: 0; 
+  font-weight: 700;
+  display: inline-flex;
+}
+
+/* skill block */
+.box-skills {
+  padding: 3px;
+  text-align: center;
+  background: #e6e8e3;
+}
+
+.margins {
+  margin: 35px 36px 55px 36px;
+  width: 303px;
+}
+
+.skill-container {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  line-height: 17px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.code {
+  margin: 0;
+  padding: 0;
+  width: 140px;
+}
+
+.toolbox {
+  margin: 0;
+  padding: 0;
+  width: 163px;
+}
+
+.upcoming {
+  margin: 0;
+  padding: 0;
+  width: 140px;
+}
+
+.more {
+  margin: 0;
+  padding: 0;
+  width: 163px;
+}
+
+h5 {
+  margin: 0;
+  padding-top: 23px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  color: #808c73;
+  line-height: 14px;
+}
+
+/* social links repeated */
+.socials-container {
+  padding: 3px 3px 50px 3px;
+  text-align: center;
+}
+
+.socials-fill {
+  display: flex;
+  justify-content: space-around;
+}
+
+.socials-fill a {
+  font-size: 11px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  text-decoration: none;
+  color: #808c73;
+  cursor: pointer;
+}
+
+.social-link-fill {
+  margin-top: 15px;
+  height: 59px;
+  width: 59px;
+  border: 3px solid #808c73;
+  border-radius: 50%;
+}
+
+#link-label {
+  margin-top: 10px;
+  padding: 0px;
+}
+
+#linkedin-fill {
+  height: 30px;
+  width: 30px;
+  margin-top: 13px;
+  margin-left: 2px;
+}
+
+#github-fill {
+  height: 31px;
+  width: 30px;
+  margin-top: 14px;
+  margin-left: -1px;
+}
+
+#email-fill {
+  height: 32px;
+  width: 32px;
+  margin-top: 13px;
+  margin-left: -5px;
+}
+
+/* footer */
+
+footer {
+  padding: 3px 3px 50px 3px;
+  text-align: center;
+  color: #fff;
+  background:#808c73;
+}
+
+footer div {
+  margin: 35px 36px 55px 36px;
+  width: 303px; 
+}
+
+#caps {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  line-height: 29px;
+  font-weight: 700;
+}
+
+#regular {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  line-height: 29px;
+  font-weight: 400;
+}
+
+
+
 
 
 /* responsive notes:

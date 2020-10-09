@@ -8,19 +8,26 @@
   <title>Peggy Wang</title>
 </head>
 <body>
+
   <!-- hero block -->
   <section>
     <article class="hero"> 
       <div class="socials">
-            <a href="https://www.linkedin.com/in/peggywang/">
+            <a href="https://www.linkedin.com/in/peggywang/" target="_blank">
               <div class="social-link" >
-                <img id="linkedin" src="/img/ico_linkedin.svg" />
-            </div>
-          </a>
-            <a href="https://github.com/pwangy">
+                <img id="linkedin" src="/img/ico_li.png" alt="LinkedIn icon and link"
+                />
+              </div>
+            </a>
+            <a href="https://github.com/pwangy" target="_blank">
               <div class="social-link">
-                <img id="github" src="/img/ico_github.svg" />
-            </div>
+                <img id="github" src="/img/ico_github.svg" alt="Github icon and link"/>
+              </div>
+            </a>
+            <a href="mailto:hello@blipsandclicks.com" target="_blank">
+              <div class="social-link">
+                <img id="email" src="/img/ico_email.png" alt="email icon and link"/>
+              </div>
             </a>
       </div>
       
@@ -32,62 +39,146 @@
         <h1>frontend developer</h1>
         <h3>+ designer</h3>
       </div>
-      <!-- ^^^ Top section
-This is where you sell in your new self. You might combine your previous experience with your new frontend skills or basically use this area to describe yourself the way you see your role in the future. Either you do something like "Frontend + design" or more of a sentence like; "Frontend developer with a background in communications". Or if you don't see yourself as a frontend developer in the future maybe you want to write something like; "Project manager with coding skills". It's your portfolio.  -->
       <div class="profile-img"></div>
     </article>
-    
-    <article class="box-green">
+    <!-- ^^^ Top section
+This is where you sell in your new self. You might combine your previous experience with your new frontend skills or basically use this area to describe yourself the way you see your role in the future. Either you do something like "Frontend + design" or more of a sentence like; "Frontend developer with a background in communications". Or if you don't see yourself as a frontend developer in the future, maybe you want to write something like; "Project manager with coding skills". It's your portfolio.  -->
+
+
+    <article class="box-intro">
       <div>
         <div id="symbol">
           <div id="line"></div>
           <div id="dot"></div>
         </div>
-        <p class="left-align">Summarise what you have done in the past and what you want to do in the future. This gives the reader an idea of who you are. Keep it short and personal.</p>
+        <p id="intro">Summarise what you have done in the past and what you want to do in the future. This gives the reader an idea of who you are. Keep it short and personal.</p>
       </div>
     </article>
   </section>
+
   <!-- tech block -->
   <section>
-    <article class="box-wht">
+    <article class="box-tech">
       <div>
         <h2>TECH</h2>
-          <p>HTML, CSS, Flexbox, JavaScript, ES6, <!--JSX, React, React Hooks, Redux, Node.js, Mongo DB,--> Web Accessibly, API:s, mob-programming, pair-programming, Github, UX, Adobe Cloud.</p>
+          <p>HTML, CSS, Flexbox, JavaScript, ES6, JSX, React, React Hooks, Redux, Node.js, Mongo DB, Web Accessibly, API:s, mob-programming, pair-programming, Github, UX, Adobe Cloud.</p>
       </div>   
     </article>
   </section>
 
-    <!-- ### Tech section
-    Give a short summary/name dropping of all the technologies, tools, libraries and things that you know and will know during this course. It's really the more the merrier here.  -->
-
-  <!-- wrk block -->
+  <!-- projects -->
   <section>
-    <article class="box-green">
-      <div class="projects">
-        <h2>FEATURED PROJECTS</h2>
+    <article class="box-projects">
+        <div>
+          <h2>FEATURED PROJECTS</h2>
         
-        <img class="thumbs" src="/img/#" />
-        <div class="left-align">  
-          <p class="title">PROJECT NAME</p>
-          <p class="left-align">This is a description</p>
-          <p class="tag">HTML5</p>
-        </div>
-      </div>
-    </article>
-    
-  </section>
+          <a href="https://pwangy-weather.netlify.app/" target="_blank">
+            <article class="screenshot-container">
+              <img class="ss" src="img/thumbs_weather.png" alt="screenshot of Weather App">
+              <p class="layer">WHAT TO WEAR</p>
+            </article>
+            <article class="project-desc">
+              <p class="desc-txt"><span>Weather App.</span> JavaScript build using OpenWeather API.<span> >></span></p>
+            </article>
+            <article class="project-tags">
+              <p class="tag">HTML5</p>
+              <p class="tag">CSS3</p>
+              <p class="tag">JavaScript ES6</p>
+              <p class="tag">API</p>
+            </article>
+          </a>
 
-    <!-- ### Featured projects
-    Put the projects that you are most proud of here. Make sure to mention all technologies, libraries or APIs that you have used. Don't feel like you are repeating yourself. As a recruiter looking for a React developer – the more React is mentioned – the better. I you have other code projects that are not related to this course, feel free to add them too. 
+          <a href="https://pwangy-cluedo.netlify.app/" target="_blank">
+            <article class="screenshot-container">
+              <img class="ss" src="img/thumbs_clue.png" alt="screenshot of Cluedo Mystery Picker">
+              <p class="layer">WHODUNNIT?</p>
+            </article>
+            <article class="project-desc">
+              <p class="desc-txt"><span>CLUEDO.</span> Card randomzer to pick a murderer, weapon, and room.<span> >></span></p>
+            </article>
+            <article class="project-tags">
+              <p class="tag">HTML5</p>
+              <p class="tag">CSS3</p>
+              <p class="tag">JavaScript ES6</p>
+            </article>
+          </a>
+
+          <a href="https://pwangy-biz.netlify.app/" target="_blank">
+            <article class="screenshot-container">
+              <img class="ss" src="img/thumbs_biz.jpg" alt="screenshot of Weather App">
+              <p class="layer">HERO HEADER</p>
+            </article>
+            <article class="project-desc">
+              <p class="desc-txt"><span>BUSINESS SITE.</span> Layout with focus on hero headers, web-forms, and accordion menus. &#x2014 First JavaScript project<span> >></span></p>
+            </article>
+            <article class="project-tags">
+              <p class="tag">HTML5</p>
+              <p class="tag">CSS3</p>
+              <p class="tag">JavaScript ES6</p>
+            </article>   
+          </a>
+        <!-- ### Featured projects
+    Put the projects that you are most proud of here. Make sure to mention all technologies, libraries or APIs that you have used. Don't feel like you are repeating yourself. As a recruiter looking for a React developer – the more React is mentioned – the better. If you have other code projects that are not related to this course, feel free to add them too. 
 
     Link your projects to their Github page and **make sure the whole area is a link**, meaning the image, headline and text. -->
 
+
+      <!-- other projects -->
+          <h4>OTHER PROJECTS</h4>
+          <a href="https://pwangy-pizzabot.netlify.app/" target="_blank">
+            <article class="project-desc">
+              <p class="desc-txt"><span>PIZZA BOT.</span> JavaScript bot to practice writing functions and DOM manipulation. &#x2014 First Pair Programming project<span> >></span></p>
+            </article>
+            <article class="project-tags">
+              <p class="tag">HTML5</p>
+              <p class="tag">CSS3</p>
+              <p class="tag">JavaScript ES6</p>
+            </article>
+          </a>
+
+          <a href="https://pwangy-news.netlify.app/" target="_blank">
+            <article class="project-desc">
+              <p class="desc-txt"><span>NEWS SITE.</span> Responsive layout using Flexbox and structured using the Box Model. &#x2014 First Technigo project<span> >></span></p>
+            </article>
+            <article class="project-tags">
+              <p class="tag">HTML5</p>
+              <p class="tag">CSS3</p>
+            </article>
+          </a>
+        </div>
+    </article>
+  </section>
     <!-- ### Other projects
     Put all of your other projects here. The more the merrier.  -->
 
-  <!-- links to blog content block -->
 
-    <!-- ### My Thoughts
+  <!-- links to blog block -->
+  <section>
+    <article class="box-blog">
+      <div>
+        <h2>MY THOUGHTS</h2>
+        <article class="post-container-">
+          <a href="#" target="_blank">
+            <img class="ss" src="/img/ex-thumb.png" alt="this is a placeholder image">
+            <article class="project-desc">
+              <p class="date">SEPT 2020</p>
+              <p class="post-title">This is a title</p>
+              <p class="post-intro">Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi vel egestas libero, suscipit vehicula felis. Mauris aliquet vulputate justo nec hendrerit. Aliquam tempus tortor ut dapibus aliquam. Fusce vulputate orci nec est ornare, eget auctor libero gravida. Sed lobortis dui orci, eget ullamcorper odio ullamcorper vel. Morbi sem ipsum, tristique et urna a, elementum gravida tellus.<span> >></span></p>
+            </article>
+         </a>
+        </article>
+        
+        <article class="post-container">
+          <a href="#" target="_blank">
+            <img class="ss" src="/img/ex-thumb.png" alt="this is a placeholder image">
+            <article class="project-desc">
+              <p class="date">OCT 2020</p>
+              <p class="post-title">This is a title</p>
+              <p class="post-intro">Aenean diam neque, laoreet sit amet rutrum eget, semper id nisi. Integer orci diam, vehicula vehicula tellus sit amet, laoreet tempus enim. Suspendisse a cursus dui. Curabitur porta mattis euismod. Ut et purus mi. Donec dictum fringilla ante, eu placerat neque maximus at. Maecenas nibh sapien, auctor a nisl quis, venenatis malesuada urna.<span> >></span></p>
+            </article>
+         </a>
+        </article>
+        <!-- ### My Thoughts
 
   This is the area where you really can present yourself and your thoughts about code. It's extremely helpful for recruiters to pick your brain a little and see that you don't just code – you also reflect. 
 
@@ -95,18 +186,145 @@ This is where you sell in your new self. You might combine your previous experie
 
   **Make sure that the whole area is clickable and a link**, meaning the image, headline and text.  -->
 
+<!-- older blog posts -->
+          <h4>MORE THOUGHTS</h4>
+          
+          <article class="post-container-more">
+            <a href="#" target="_blank">
+              <p class="date-more">AUG 2020</p>
+              <p class="post-title-more">This is a title<span>&ensp;>></span></p>
+          </a>
+          </article>
 
+          <article class="post-container-more">
+            <a href="#" target="_blank">
+              <p class="date-more">JUL 2020</p>
+              <p class="post-title-more">This is another title<span>&ensp;>></span></p>
+          </a>
+          </article>
 
-  <!-- skill summary block -->
-    <!-- ### Skills
+          <article class="post-container-more">
+            <a href="#" target="_blank">
+              <p class="date-more">JUN 2020</p>
+              <p class="post-title-more">Thoughts on Things!<span>&ensp;>></span></p>
+          </a>
+          </article>
 
-Place ALL your skills here. Feel free to add tech skills that are not in the course but things you have since before. In the other columns, place everything that you think will be useful for a job in tech. Softwares that you know, methodologies, leadership frameworks and basically whatever. -->
+          <article class="post-container-more">
+            <a href="#" target="_blank">
+              <p class="date-more">MAY 2020</p>
+              <p class="post-title-more">The last thought.<span>&ensp;>></span></p>
+          </a>
+          </article>
+       </div>
+      </article>
+  </section>
+    
 
+  <!-- skill block -->
+  <section>
+    <article class="box-skills">
+      <div class="margins">
+        <h2>SKILLS</h2>
+        <div class="skill-container">
+          <div class="code">
+            <h5>CODE</h5>
+              <p>HTML5</p>
+              <p>CSS3</p>
+              <p>JavaScript ES6</p>
+              <p>GitHub</p>
+          </div>
+
+          <div class="toolbox">
+            <h5>TOOLBOX</h5>
+              <p>Visual Studio Code</p>
+              <p>BBEdit</p>
+              <p>Adobe Cloud</p>
+              <p>Sketch</p>
+              <p>Axure</p>
+              <p>Principle</p>
+              <p>JIRA</p>
+              <p>SendGrid</p>
+              <p>MS Access</p>
+              <p>MS Excel</p>
+              <p>PowerPoint</p>
+              <p>Salesforce</p>
+              <p>Slack</p>
+          </div>
+
+          <div class="upcoming">
+            <h5>UPCOMING</h5>
+              <p>React</p>
+              <p>Node.js</p>
+              <p>Redux</p>
+              <p>MongoDB</p>
+              <p>Express</p>
+          </div>
+
+          <div class="more">
+            <h5>MORE</h5>
+              <p>Graphic Design</p>
+              <p>Product Design</p>
+              <p>Life Cycle Assessment</p>
+              <p>UX Design</p>
+              <p>API:s</p>
+              <p>Web Accessability</p>
+              <p>Agile Methodology</p>
+              <p>Project Management</p>
+              <p>Team Management</p>
+              <p>Process Improvement</p>
+              <p>Knowledge Management</p>
+              <p>Innovation Management</p>
+              <p>Vendor Evaluation  & Management</p>
+              <p>Risk Detection and Mitigation</p>
+              <p>Offset Printing</p>
+              <p>Letterpress</p>
+          </div>
+        </div>  
+      </div>   
+    </article>
+  </section>
 
   <!-- repeat links to socials -->
-
+<section>
+  <article class="socials-container">
+    <div class="margins">
+      <h2>FOR MORE</h2>
+    <div class="socials-fill">
+      <a href="https://www.linkedin.com/in/peggywang/" target="_blank">
+        <div class="social-link-fill" >
+          <img id="linkedin-fill" src="/img/ico_li_fill.png" alt="LinkedIn icon and link"
+          />
+          <p id="link-label">LINKEDIN</p>
+        </div>
+      </a>
+      <a href="https://github.com/pwangy" target="_blank">
+        <div class="social-link-fill">
+          <img id="github-fill" src="/img/ico_github_fill.png" alt="Github icon and link"/>
+          <p id="link-label">GITHUB</p>
+        </div>
+      </a>
+      <a href="mailto:hello@blipsandclicks.com" target="_blank">
+        <div class="social-link-fill">
+          <img id="email-fill" src="/img/ico_email_fill.png" alt="email icon and link"/>
+          <p id="link-label">EMAIL</p>
+        </div>
+      </a>
+    </div>
+  </div>
+</article>
+</section>
   <!-- footer/ contact info -->
-
+<footer>
+      <div>
+        <h2>CONTACT</h2>
+          <p id="caps">Peggy Wang</p>
+          <p id="regular">+46 07 61 07 73 15</p>
+          <p id="regular">hello@blipsandclicks.com</p>
+      </div>   
+    </article>
+  </section>
+</footer>
   <script src="./script.js"></script>
 </body>
 </html>
