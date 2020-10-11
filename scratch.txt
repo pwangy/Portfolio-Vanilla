@@ -55,13 +55,6 @@ do testing!!
 +++++++++++++++++++++++++++++++++
 
 
-
-**The portfolio should contain:**
-- A presentation of the tech skills that you have.
-- A presentation of some thoughts that you have around code.
-- A presentation of your projects linking to your Github.
-
-
 ## Test your website 👷🏻‍♂️
 A big part of this project is to test your page so that it works for all the most used browsers and works well for people with dissabilities.
 
