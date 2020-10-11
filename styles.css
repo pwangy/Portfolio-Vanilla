@@ -198,6 +198,7 @@ h4 {
 .screenshot-container {
   margin-top: 25px;
   position: relative;
+  overflow: hidden;
 }
 
 .ss {
@@ -208,11 +209,11 @@ h4 {
 .layer {
   top: -16px;
   height: 126px;
-  width: 303px;
+  width: 197px;
   font-size: 16px;
   font-weight: 700;
   color: #b2baab;
-  line-break: 19px;
+  /* line-break: 19px; */
   padding: 53px;
   background: rgba(0, 0, 0, 0.75);
   position: absolute;
