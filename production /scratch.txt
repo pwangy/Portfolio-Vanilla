@@ -1,3 +1,12 @@
+dig into tablet and desktop views
+
+accessablility testing
+
+review Van's code review feedback
+
+
+
+
 /* MOBILE
 viewport size 375x812
 design size 375x5141 */
