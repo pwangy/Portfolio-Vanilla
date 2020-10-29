@@ -55,7 +55,7 @@ section {
   height: 21px;
   width: 20px;
   margin-top: 10px;
-  margin-left: 10px;
+  margin-left: 9px;
 }
 
 #email {
@@ -103,7 +103,7 @@ h2 {
 h3 {
   font-size: 24px;
   font-weight: 700;
-  margin-top: 8px;
+  margin-top: -27px;
 }
 
 .profile-img {
@@ -208,14 +208,14 @@ h4 {
 }
 
 .layer {
-  top: -16px;
-  height: 126px;
-  width: 197px;
+  top: 0;
+  height: 206px;
+  width: 303px;
+  margin: 0;
+  padding-top: 71px;
   font-size: 16px;
   font-weight: 700;
   color: #b2baab;
-  /* line-break: 19px; */
-  padding: 53px;
   background: rgba(0, 0, 0, 0.75);
   position: absolute;
 }
@@ -268,6 +268,7 @@ h5 {
 .box-blog {
   margin: 3px;
   text-align: center;
+  display: none;
 }
 
 .box-blog div {
@@ -467,7 +468,7 @@ footer div {
 }
 
  /* Media Queries */
-/* @media (min-width: 768px) {  
+@media (min-width: 768px) {  
   body {
     font-size: 30px;
     line-height: 50px;
@@ -572,7 +573,7 @@ footer div {
     width: 15px;
   }
 
-  /* tech block 
+  /* tech block  */
   .box-tech {
     display: flex;
     flex-direction: column;
@@ -587,7 +588,7 @@ footer div {
     line-height: 58px;
   }
 
-  /*  project block 
+  /*  project block */
   .box-projects div {
     margin: 35px 50px 100px 50px;
     width: 668px;
@@ -637,7 +638,7 @@ footer div {
     margin-top: 118px;
   }
 
-  /* blog block 
+  /* blog block */
   .box-blog div {
     margin: 35px 50px 65px 50px;
     width: 668px;
@@ -691,7 +692,7 @@ footer div {
     margin: 0 16px 0 0;
   }
 
-  /* skill block 
+  /* skill block */
   .margins {
     margin: 57px 50px 75px 50px;
     width: 668px;
@@ -707,7 +708,7 @@ footer div {
     line-height: 41px;
   }
 
-  /* social links repeated 
+  /* social links repeated */
   .socials-container {
     padding: 3px 3px 75px 3px;
   }
@@ -748,7 +749,7 @@ footer div {
     margin-left: -5px;
   }
 
-  /* footer 
+  /* footer */
 
   footer {
     /* margin-top: 57px; 
@@ -773,6 +774,6 @@ footer div {
 } */
 
 /* Desktop */
-/* @media (min-width: 900px) {
+@media (min-width: 900px) {
 
-}  */
+} 
