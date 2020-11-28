@@ -1,12 +1,10 @@
-# Project Portfolio
-Project done as a part of Technigo bootcamp.
+# Portfolio
+This portfolio was one of Technigo bootcamp's weekly projects.
 
-Portfolio build.
 
 Learning Objectives:
-- Implement Technigo-defined design specification.
+- Replicate a portfolio layout designed by someone else.
 - Acessability and cross-browser testing
-
 
 
 ## Core Tech
