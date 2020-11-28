@@ -1,17 +1,13 @@
-/* responsive notes:
-review and adjust all margins
-check font sizing, line spacing, and letter spacing. check to see what things do and don't wrap. (t.ex: h1) 
-*/
-
-
 body {
   margin: 0;
   padding: 0;
+  width: 100%;
   font-family: 'Montserrat', sans-serif;
   font-size: 17px;
   letter-spacing: 1px;
   line-height: 29px;
   color: #4d4d4d;
+  background: #808c73;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
@@ -61,7 +57,7 @@ section {
   height: 21px;
   width: 20px;
   margin-top: 10px;
-  margin-left: 10px;
+  margin-left: 9px;
 }
 
 #email {
@@ -75,7 +71,8 @@ section {
   color: #fff;
   height: 200px;
   text-align: left;
-  margin: 32px 0 0 41px;
+  margin-top: 32px;
+  margin-left: 41px;
 }
 
 #topline {
@@ -94,20 +91,21 @@ section {
 
 h1 {
   font-weight: 700;
-  margin: 12px 0 0 18px;
+  margin-top: 12px;
+  margin-left:  18px;
 }
 
 h2 {
   font-size: 40px;
   font-weight: 700;
   line-height: 49px;
-  margin: 5px 0 0 0;
+  margin-top: 5px;
 }
 
 h3 {
   font-size: 24px;
   font-weight: 700;
-  margin: 8px 0 0 0;
+  margin-top: -27px;
 }
 
 .profile-img {
@@ -117,6 +115,7 @@ h3 {
   height: 162px;
   background: transparent url("/img/profile.jpg") no-repeat;
   background-size: cover;
+  object-fit: cover;
   border: 3px solid #fff;
   border-radius: 50%;
 }
@@ -166,7 +165,6 @@ h3 {
 
 .box-tech div {
   margin: 35px 36px 55px 36px;
-  width: 303px; 
 }
 
 h4 {
@@ -184,13 +182,13 @@ h4 {
 /*  project block */
 .box-projects {
   margin-top: 3px;
+  padding-top: 35px;
   text-align: center;
   background: #e6e8e3;
 }
 
-.box-projects div {
+.project-margin {
   margin: 35px 36px 0 36px;
-  width: 303px;
 }
 
 .box-projects a {
@@ -202,6 +200,7 @@ h4 {
 .screenshot-container {
   margin-top: 25px;
   position: relative;
+  overflow: hidden;
 }
 
 .ss {
@@ -210,14 +209,14 @@ h4 {
 }
 
 .layer {
-  top: -16px;
-  height: 126px;
+  top: 0;
+  height: 206px;
   width: 303px;
+  margin: 0;
+  padding-top: 71px;
   font-size: 16px;
   font-weight: 700;
   color: #b2baab;
-  line-break: 19px;
-  padding: 53px 0 0px 0;
   background: rgba(0, 0, 0, 0.75);
   position: absolute;
 }
@@ -229,6 +228,7 @@ h4 {
 
 .project-desc {
   margin-top: 14px;
+  font-family: 'Roboto', sans-serif;
   text-align: left;
 }
 
@@ -258,22 +258,37 @@ span {
   background: #b2baab;
 }
 
-h4 {
+.other-projects {
+  text-align: center;
+  background: #e6e8e3;
+}
+
+.other-projects a {
+  text-decoration: none;
+  color: #4d4d4d;
+  cursor: pointer;
+}
+
+h5 {
   font-size: 21px;
   line-height: 25px;
   color: #808c73;
   margin-top: 67px;
 }
 
+.other-project-margin {
+  margin: 35px 36px 0 36px;
+}
+
 /* blog block */
 .box-blog {
   margin: 3px;
   text-align: center;
+  display: none;
 }
 
 .box-blog div {
   margin: 35px 36px 65px 36px;
-  width: 303px;
 }
 
 .box-blog a {
@@ -295,6 +310,12 @@ h4 {
   line-height: 32px;
   display: none;
   /* display: flex; */
+}
+
+.post-desc {
+  margin-top: 14px;
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
 }
 
 .date {
@@ -337,12 +358,12 @@ h4 {
 .box-skills {
   padding: 3px;
   text-align: center;
-  background: #e6e8e3;
+  /* background: #e6e8e3; 
+  leaving this here in case I end up reactiving the Thoughts section */
 }
 
 .margins {
   margin: 35px 36px 55px 36px;
-  width: 303px;
 }
 
 .skill-container {
@@ -355,31 +376,19 @@ h4 {
   justify-content: center;
 }
 
-.code {
+.left {
   margin: 0;
   padding: 0;
   width: 140px;
 }
 
-.toolbox {
+.right {
   margin: 0;
   padding: 0;
   width: 163px;
 }
 
-.upcoming {
-  margin: 0;
-  padding: 0;
-  width: 140px;
-}
-
-.more {
-  margin: 0;
-  padding: 0;
-  width: 163px;
-}
-
-h5 {
+h6 {
   margin: 0;
   padding-top: 23px;
   font-family: 'Roboto', sans-serif;
@@ -417,44 +426,45 @@ h5 {
   border-radius: 50%;
 }
 
-#link-label {
+.link-label {
   margin-top: 10px;
   padding: 0px;
 }
 
 #linkedin-fill {
-  height: 30px;
-  width: 30px;
-  margin-top: 13px;
+  height: 33px;
+  width: 33px;
+  margin-top: 11px;
   margin-left: 2px;
 }
 
 #github-fill {
-  height: 31px;
-  width: 30px;
-  margin-top: 14px;
-  margin-left: -1px;
+  height: 34px;
+  width: 33px;
+  margin-top: 13px;
+  margin-left: 0px;
 }
 
 #email-fill {
-  height: 32px;
-  width: 32px;
+  height: 33px;
+  width: 33px;
   margin-top: 13px;
   margin-left: -5px;
+  filter: invert(55%) sepia(10%) saturate(641%) hue-rotate(46deg) brightness(96%) contrast(83%);
 }
 
 /* footer */
-
 footer {
-  padding: 3px;
+  width: 100%;
+  margin: 0;
+  padding: 12px;
   text-align: center;
   color: #fff;
   background:#808c73;
 }
 
-footer div {
-  margin: 35px 36px 55px 36px;
-  width: 303px; 
+.footer {
+  padding: 35px 36px 55px 36px;
 }
 
 #caps {
@@ -473,48 +483,140 @@ footer div {
   font-weight: 400;
 }
 
-
-
-/* responsive notes:
-review and adjust all margins
-check font sizing, line spacing, and letter spacing. check to see what things do and don't wrap. (t.ex: h1) 
-*/
-
  /* Media Queries */
-@media (min-width: 768px) {  
+@media (min-width: 600px) {  
   body {
-    font-size: 30px;
-    line-height: 50px;
-  }
-  
-  .hero {
-    width: 100%;
-    /* height: 325px; */
-    overflow: hidden;
-  }
-  
-  .socials {
-    margin-left: 375px;
+    line-height: 29px;
+    letter-spacing: 0;
   }
 
+/* hero block */
   section {
-    width: 600px;
-  }
-
-
-
-  .intro-container {
     width: 100%;
   }
   
   .hero {
-    height: 656px;
-    width: 100%;
-    overflow: hidden;
+    height: 328px;
   }
-}
 
-/* Desktop */ 
-@media (min-width: 900px) {
+  .socials {
+    margin-top: 40px;
+    margin-right: 90px;
+    justify-content: flex-end;
+  }
 
+  .social-link {
+    height: 48px;
+    width: 48px;
+    margin-left: 8px;
+  }
+
+  #linkedin {
+    height: 23px;
+    width: 23px;
+    margin-top: 10px;
+    margin-left: 13px;
+  }
+
+  #github {
+    height: 23px;
+    width: 21px;
+    margin-top: 12px;
+    margin-left: 14px;
+  }
+
+  #email {
+    height: 23px;
+    width: 23px;
+    margin-top: 12px;
+    margin-left: 11px;
+  }
+
+  .overlay-txt {
+    margin-top: 10px;
+    margin-left: 90px;
+  }
+
+  #topline {
+    font-size: 12px;
+    line-height: 33px;
+    letter-spacing: 1.12px;
+  }
+
+  #label {
+    margin: 0;
+  }
+
+  h1 {
+    margin-top: 0;
+    margin-left: 14px;
+    font-size: 12px;
+  }
+
+  h2 {
+    font-size: 48px;
+    line-height: 48px;
+    margin-top: 0;
+    width: 280px;
+  }
+
+  h3 {
+    font-size: 26px;
+    line-height: 27px;
+  }
+
+  .img-container {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .profile-img {
+    margin-top: -152px;
+    margin-right: 90px;
+    width: 190px;
+    height: 190px; 
+    border: 4px solid #fff;
+  }
+
+  .box-intro div {
+    margin: 56px 90px;
+  }
+
+  #symbol {
+    margin: 7px -77px 0 0;
+  }
+
+  /* tech block */
+  .box-tech div {
+    margin: 35px 90px 55px 90px;
+  }
+
+  /*  project block */
+  .project-margin {
+    margin: 35px 90px 0 90px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+
+  .project-card {
+    margin: 0 16px;
+    width: 303px;
+  }
+
+  .other-project-margin {
+    margin: 35px 90px 0 90px;
+  }
+
+  /* social links repeated */
+  .socials-container .socials-fill {
+    padding: 0 100px;
+  }
+  .socials-fill {
+    margin: 0 100px;
+  }
+
+  @media (min-width: 1024px) {
+
+  }
 }

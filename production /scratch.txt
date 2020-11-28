@@ -1,3 +1,31 @@
+SATURDAY;
+
+review general feedback from code coaches.
+bang out desktop friendly styling
+update summary blurb and featured projects
+
+post to LinkedIn
+
+--------
+
+notes from general feedback:
+1. But if you have a `div` that should be clickable then tabindex can be useful!
+
+```html
+<div onclick="doSomethingCool()" tabindex="0">
+  ...
+</div>
+```
+
+2. stopped reading at Project Image Hover Preview section..
+
+to do:
+accessablility testing
+
+
+
+
+
 /* MOBILE
 viewport size 375x812
 design size 375x5141 */
@@ -39,20 +67,6 @@ desktop:
 
 
 +++++++++++++++++++++++++++++++++
-hi! 
-
-
-work on tablet/desktop views
-
-fill in ::content
-
-
-check for accessable attributes! ie. alt txt for imgs
-
-
-maybe JS to filter by tag?
-do testing!!
-+++++++++++++++++++++++++++++++++
 
 
 ## Test your website 👷🏻‍♂️
@@ -73,27 +87,3 @@ Follow the [Workflows for cross browser testing](https://developer.mozilla.org/
 The next step is to make sure your webpage works well for people with disabilities. You should follow each step on the [Accessibility testing checklist](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/Accessibility) at the bottom of the page and make adjustments for those errors that you find. Feel free to discuss in Slack what you find and how to solve some issues.
 
 If you publish your website, you can use the built in screen reader on your phone for the screen reader test. Google to see how to turn it on for your phone.
-
-## How to hand in the code 🎯
-- Deploy your site to netlify
-- Post the link to the repo and your deployed site in canvas
-- Wait for the code review from your teachers
-
-
-
-**🔵  Blue Level (Minimum Requirements)**
-- The page should be built with HTML and CSS (JS if needed)
-- You should use flexbox for layout (you can use CSS grid if you're comfortable with that).
-- The page should be fully responsive. (mobile, tablet and desktop)
-- The page should look and function the same on Chrome, Firefox, and Edge.
-- The page should work well for people that use screen readers and keyboard navigation.
-- The HTML code should validate in a validation tool.
-
-Make sure you've committed and pushed a version of your project before starting with the intermediary and advanced goals.
-
-**🔴  Red Level (Intermediary Goals)**
-- Optimize your website for sharing on social media using [og:tags.](https://css-tricks.com/essential-meta-tags-social-media/)
-
-**⚫  Black Level (Advanced Goals)**
-- Give your portfolio a custom domain and connect to your deployed site. [Read more.](https://docs.netlify.com/domains-https/custom-domains/)
-

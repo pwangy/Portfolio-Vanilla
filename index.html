@@ -3,9 +3,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <meta property="og:title" content="Peggy Wang's Portfolio" />
+  <meta
+  property="og:description"
+  content="A portfolio and collection of projects by Peggy"
+  />
+  <meta
+  property="og:image"
+  content="https://netlify.app/assets/og-image.png"
+  />
+  this needs to be an absolute path ^
+  image needs to be 1200x630
+  <meta property="og:url" content="netlify url here/" /> 
+You can check a preview of how your OpenGraph information will appear when shared by using this site https://www.opengraph.xyz/.
+-->
+
+  <meta name="description" content="Peggy Wang frontend web developer portfolio">
+
+  <meta name="keywords" content="JavaScript, React, React Hooks, CSS, Redux">
+  <meta name="author" content="Peggy Wang | Portfolio">
   <link rel="stylesheet" href="./styles.css" />
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
-  <title>Peggy Wang</title>
+  <link rel="icon" href="./favicon.ico" type="image/ico">
+  <title>Peggy Wang | Developer Portfolio</title>
 </head>
 <body>
 
@@ -39,19 +59,19 @@
         <h2>frontend developer</h2>
         <h3>+ designer</h3>
       </div>
-      <div class="profile-img"></div>
+      <div class="img-container">
+        <div class="profile-img" /> 
+      </div>
     </article>
-    <!-- ^^^ Top section
-This is where you sell in your new self. You might combine your previous experience with your new frontend skills or basically use this area to describe yourself the way you see your role in the future. Either you do something like "Frontend + design" or more of a sentence like; "Frontend developer with a background in communications". Or if you don't see yourself as a frontend developer in the future, maybe you want to write something like; "Project manager with coding skills". It's your portfolio.  -->
-
-
     <article class="box-intro">
       <div>
         <div id="symbol">
           <div id="line"></div>
           <div id="dot"></div>
         </div>
-        <p id="intro">Summarise what you have done in the past and what you want to do in the future. This gives the reader an idea of who you are. Keep it short and personal.</p>
+        <p id="intro">
+          I'm a lifelong learner who sees the world through the lens of design. With frontend developer, UX, data & anaytic skills I have the know-how to execute proposed solutions.
+      </p>
       </div>
     </article>
   </section>
@@ -61,7 +81,8 @@ This is where you sell in your new self. You might combine your previous experie
     <article class="box-tech">
       <div>
         <h4>TECH</h4>
-          <p>HTML, CSS, Flexbox, JavaScript, ES6, JSX, React, React Hooks, Redux, Node.js, Mongo DB, Web Accessibly, API:s, mob-programming, pair-programming, Github, UX, Adobe Cloud.</p>
+          <p>HTML, JSX, CSS, Flexbox, JavaScript, ES6, React, React Hooks, Redux, React Native, Node.js, Mongo DB, Web Accessibly, API:s, mob- & pair-programming, Github, UX, Adobe Cloud.</p>
+          <!-- Grid, SASS,  -->
       </div>   
     </article>
   </section>
@@ -69,88 +90,124 @@ This is where you sell in your new self. You might combine your previous experie
   <!-- projects -->
   <section>
     <article class="box-projects">
-        <div>
-          <h4>FEATURED PROJECTS</h4>
-        
-          <a href="https://pwangy-weather.netlify.app/" target="_blank">
-            <article class="screenshot-container">
-              <img class="ss" src="img/thumbs_weather.png" alt="screenshot of Weather App">
-              <p class="layer">WHAT TO WEAR</p>
-            </article>
-            <article class="project-desc">
-              <p class="desc-txt"><span>Weather App.</span> JavaScript build using OpenWeather API.<span> >></span></p>
-            </article>
-            <article class="project-tags">
-              <p class="tag">HTML5</p>
-              <p class="tag">CSS3</p>
-              <p class="tag">JavaScript ES6</p>
-              <p class="tag">API</p>
-            </article>
-          </a>
-
-          <a href="https://pwangy-cluedo.netlify.app/" target="_blank">
-            <article class="screenshot-container">
-              <img class="ss" src="img/thumbs_clue.png" alt="screenshot of Cluedo Mystery Picker">
-              <p class="layer">WHODUNNIT?</p>
-            </article>
-            <article class="project-desc">
-              <p class="desc-txt"><span>CLUEDO.</span> Card randomzer to pick a murderer, weapon, and room.<span> >></span></p>
-            </article>
-            <article class="project-tags">
-              <p class="tag">HTML5</p>
-              <p class="tag">CSS3</p>
-              <p class="tag">JavaScript ES6</p>
-            </article>
-          </a>
-
-          <a href="https://pwangy-biz.netlify.app/" target="_blank">
-            <article class="screenshot-container">
-              <img class="ss" src="img/thumbs_biz.jpg" alt="screenshot of Weather App">
-              <p class="layer">HERO HEADER</p>
-            </article>
-            <article class="project-desc">
-              <p class="desc-txt"><span>BUSINESS SITE.</span> Layout with focus on hero headers, web-forms, and accordion menus. &#x2014; First JavaScript project<span> >></span></p>
-            </article>
-            <article class="project-tags">
-              <p class="tag">HTML5</p>
-              <p class="tag">CSS3</p>
-              <p class="tag">JavaScript ES6</p>
-            </article>   
-          </a>
-        <!-- ### Featured projects
-    Put the projects that you are most proud of here. Make sure to mention all technologies, libraries or APIs that you have used. Don't feel like you are repeating yourself. As a recruiter looking for a React developer – the more React is mentioned – the better. If you have other code projects that are not related to this course, feel free to add them too. 
-
-    Link your projects to their Github page and **make sure the whole area is a link**, meaning the image, headline and text. -->
-
-
+      <h4>FEATURED PROJECTS</h4>
+        <div class="project-margin">
+          <div class="project-card">
+            <a href="https://github.com/pwangy/project-happy-thoughts" target="_blank">
+              <article class="screenshot-container">
+                <img class="ss" src="img/thumb_happy.png" alt="screenshot of Happy Thoughts app">
+                <p class="layer">SHARE YOUR HAPPY</p>
+              </article>
+              <article class="project-desc">
+                <p class="desc-txt"><span>Happy Thoughts App.</span> React based app which fetches and posts to an API.<span> >></span></p>
+              </article>
+              <article class="project-tags">
+                <p class="tag">React</p>
+                <p class="tag">React Hooks</p>
+                <p class="tag">CSS3</p>
+                <p class="tag">JSX</p>
+                <p class="tag">API</p>
+              </article>
+            </a>
+          </div>
+          <div class="project-card">
+            <a href="https://github.com/pwangy/project-music-releases" target="_blank">
+              <article class="screenshot-container">
+                <img class="ss" src="img/thumb_music.jpg" alt="screenshot of music app">
+                <p class="layer">NEW RELEASES</p>
+              </article>
+              <article class="project-desc">
+                <p class="desc-txt"><span>Music Releases.</span> Pair-programming project to deliver a Spotify clone using React components.<span> >></span></p>
+              </article>
+              <article class="project-tags">
+                <p class="tag">React</p>
+                <p class="tag">React Hooks</p>
+                <p class="tag">CSS3</p>
+                <p class="tag">JSX</p>
+                <p class="tag">API</p>
+              </article>
+            </a>
+          </div>
+          <div class="project-card">
+            <a href="https://github.com/pwangy/project-weather-app" target="_blank">
+              <article class="screenshot-container">
+                <img class="ss" src="img/thumbs_weather.png" alt="screenshot of Weather App">
+                <p class="layer">WHAT TO WEAR</p>
+              </article>
+              <article class="project-desc">
+                <p class="desc-txt"><span>Weather App.</span> JavaScript build using OpenWeather API.<span> >></span></p>
+              </article>
+              <article class="project-tags">
+                <p class="tag">HTML5</p>
+                <p class="tag">CSS3</p>
+                <p class="tag">JavaScript ES6</p>
+                <p class="tag">API</p>
+              </article>
+            </a>
+          </div>
+          <div class="project-card">
+            <a href="https://github.com/pwangy/project-cluedo" target="_blank">
+              <article class="screenshot-container">
+                <img class="ss" src="img/thumbs_clue.png" alt="screenshot of Cluedo Mystery Picker">
+                <p class="layer">WHODUNNIT?</p>
+              </article>
+              <article class="project-desc">
+                <p class="desc-txt"><span>CLUEDO.</span> Card randomzer to pick a murderer, weapon, and room.<span> >></span></p>
+              </article>
+              <article class="project-tags">
+                <p class="tag">HTML5</p>
+                <p class="tag">CSS3</p>
+                <p class="tag">JavaScript ES6</p>
+              </article>
+            </a>
+          </div>
+    </article>
+   </section>
       <!-- other projects -->
-          <h5>OTHER PROJECTS</h5>
-          <a href="https://pwangy-pizzabot.netlify.app/" target="_blank">
-            <article class="project-desc">
-              <p class="desc-txt"><span>PIZZA BOT.</span> JavaScript bot to practice writing functions and DOM manipulation. &#x2014; First Pair Programming project<span> >></span></p>
-            </article>
-            <article class="project-tags">
-              <p class="tag">HTML5</p>
-              <p class="tag">CSS3</p>
-              <p class="tag">JavaScript ES6</p>
-            </article>
-          </a>
-
-          <a href="https://pwangy-news.netlify.app/" target="_blank">
-            <article class="project-desc">
-              <p class="desc-txt"><span>NEWS SITE.</span> Responsive layout using Flexbox and structured using the Box Model. &#x2014; First Technigo project<span> >></span></p>
-            </article>
-            <article class="project-tags">
-              <p class="tag">HTML5</p>
-              <p class="tag">CSS3</p>
-            </article>
-          </a>
-        </div>
+  <section>
+    <article class="other-projects">
+      <h5>OTHER PROJECTS</h5>
+        <div class="other-project-margin">
+          <div class="other-project-card">
+            <a href="https://github.com/pwangy/project-business-site" target="_blank">
+              <article class="project-desc">
+                <p class="desc-txt"><span>BUSINESS SITE.</span> Layout with focus on hero headers, web-forms, and accordion menus. &#x2014; First JavaScript project<span> >></span></p>
+              </article>
+              <article class="project-tags">
+                <p class="tag">HTML5</p>
+                <p class="tag">CSS3</p>
+                <p class="tag">JavaScript ES6</p>
+              </article>   
+            </a>
+          </div>
+          <div class="other-project-card">
+            <a href="https://github.com/pwangy/project-pizza-bot" target="_blank">
+              <article class="project-desc">
+                <p class="desc-txt"><span>PIZZA BOT.</span> JavaScript bot to practice writing functions and DOM manipulation. &#x2014; First Pair Programming project<span> >></span></p>
+              </article>
+              <article class="project-tags">
+                <p class="tag">HTML5</p>
+                <p class="tag">CSS3</p>
+                <p class="tag">JavaScript ES6</p>
+              </article>
+            </a>
+          </div>
+          <div class="other-project-card">
+            <a href="https://github.com/pwangy/project-news-site" target="_blank">
+              <article class="project-desc">
+                <p class="desc-txt"><span>NEWS SITE.</span> Responsive layout using Flexbox and structured using the Box Model. &#x2014; First Technigo project<span> >></span></p>
+              </article>
+              <article class="project-tags">
+                <p class="tag">HTML5</p>
+                <p class="tag">CSS3</p>
+              </article>
+            </a>
+          </div>
     </article>
   </section>
 
   <!-- links to blog block -->
-  <section>
+  <!-- <section>
     <article class="box-blog">
       <div>
         <h4>MY THOUGHTS</h4>
@@ -160,7 +217,7 @@ This is where you sell in your new self. You might combine your previous experie
             <article class="post-desc">
               <p class="date">SEPT 2020</p>
               <p class="post-title">This is a title</p>
-              <p class="post-intro">Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi vel egestas libero, suscipit vehicula felis. Mauris aliquet vulputate justo nec hendrerit. Aliquam tempus tortor ut dapibus aliquam. Fusce vulputate orci nec est ornare, eget auctor libero gravida. Sed lobortis dui orci, eget ullamcorper odio ullamcorper vel. Morbi sem ipsum, tristique et urna a, elementum gravida tellus.<span> >></span></p>
+              <p class="post-intro">Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi vel egestas libero, suscipit vehicula felis.<span> >></span></p>
             </article>
          </a>
         </article>
@@ -171,10 +228,10 @@ This is where you sell in your new self. You might combine your previous experie
             <article class="post-desc">
               <p class="date">OCT 2020</p>
               <p class="post-title">This is a title</p>
-              <p class="post-intro">Aenean diam neque, laoreet sit amet rutrum eget, semper id nisi. Integer orci diam, vehicula vehicula tellus sit amet, laoreet tempus enim. Suspendisse a cursus dui. Curabitur porta mattis euismod. Ut et purus mi. Donec dictum fringilla ante, eu placerat neque maximus at. Maecenas nibh sapien, auctor a nisl quis, venenatis malesuada urna.<span> >></span></p>
+              <p class="post-intro">Aenean diam neque, laoreet sit amet rutrum eget, semper id nisi. Integer orci diam, vehicula vehicula tellus sit amet, laoreet tempus enim. Suspendisse a cursus dui. Curabitur porta mattis euismod.<span> >></span></p>
             </article>
          </a>
-        </article>
+        </article> -->
         <!-- ### My Thoughts
 
   This is the area where you really can present yourself and your thoughts about code. It's extremely helpful for recruiters to pick your brain a little and see that you don't just code – you also reflect. 
@@ -184,7 +241,7 @@ This is where you sell in your new self. You might combine your previous experie
   **Make sure that the whole area is clickable and a link**, meaning the image, headline and text.  -->
 
 <!-- older blog posts -->
-          <h5>MORE THOUGHTS</h5>
+          <!-- <h5>MORE THOUGHTS</h5>
           
           <article class="post-container-more">
             <a href="#" target="_blank">
@@ -215,7 +272,7 @@ This is where you sell in your new self. You might combine your previous experie
           </article>
        </div>
       </article>
-  </section>
+  </section> -->
     
 
   <!-- skill block -->
@@ -226,49 +283,48 @@ This is where you sell in your new self. You might combine your previous experie
         <div class="skill-container">
           <div class="left">
             <h6>CODE</h6>
-              <p>HTML5</p>
-              <p>CSS3</p>
-              <p>JavaScript ES6</p>
-              <p>GitHub</p>
+            <p>JavaScript ES6</p>
+            <p>React</p>
+            <p>Redux</p>
+            <p>React Native</p>
+            <p>GitHub</p>
+            <p>CSS</p>
+            <p>HTML5</p>  
           </div>
 
           <div class="right">
             <h6>TOOLBOX</h6>
-              <p>Visual Studio Code</p>
-              <p>BBEdit</p>
               <p>Adobe Cloud</p>
-              <p>Sketch</p>
-              <p>Axure</p>
-              <p>Principle</p>
+              <p>BBEdit</p>
               <p>JIRA</p>
-              <p>SendGrid</p>
               <p>MS Access</p>
               <p>MS Excel</p>
+              <p>Postman</p>
               <p>PowerPoint</p>
-              <p>Salesforce</p>
+              <p>Principle</p>
+              <p>Sketch</p>
               <p>Slack</p>
+              <p>Visual Studio Code</p>
           </div>
 
           <div class="left">
             <h6>UPCOMING</h6>
-              <p>React</p>
               <p>Node.js</p>
-              <p>Redux</p>
               <p>MongoDB</p>
               <p>Express</p>
+              <p>SASS</p>
           </div>
 
           <div class="right">
             <h6>MORE</h6>
               <p>Graphic Design</p>
               <p>Product Design</p>
-              <p>Life Cycle Assessment</p>
               <p>UX Design</p>
               <p>API:s</p>
               <p>Web Accessability</p>
               <p>Agile Methodology</p>
               <p>Project Management</p>
-              <p>Team Management</p>
+              <p>Team Leadership</p>
               <p>Process Improvement</p>
               <p>Knowledge Management</p>
               <p>Innovation Management</p>
@@ -290,14 +346,14 @@ This is where you sell in your new self. You might combine your previous experie
     <div class="socials-fill">
       <a href="https://www.linkedin.com/in/peggywang/" target="_blank">
         <div class="social-link-fill" >
-          <img id="linkedin-fill" src="/img/ico_li_fill.png" alt="LinkedIn icon and link"
+          <img id="linkedin-fill" src="/img/ico_li_fill.svg" alt="LinkedIn icon and link"
           />
           <p class="link-label">LINKEDIN</p>
         </div>
       </a>
       <a href="https://github.com/pwangy" target="_blank">
         <div class="social-link-fill">
-          <img id="github-fill" src="/img/ico_github_fill.png" alt="Github icon and link"/>
+          <img id="github-fill" src="/img/ico_github_fill.svg" alt="Github icon and link"/>
           <p class="link-label">GITHUB</p>
         </div>
       </a>
@@ -313,7 +369,7 @@ This is where you sell in your new self. You might combine your previous experie
 </section>
   <!-- footer/ contact info -->
 <footer>
-      <div>
+      <div class="footer">
         <h4>CONTACT</h4>
           <p id="caps">Peggy Wang</p>
           <p id="regular">+46 07 61 07 73 15</p>
@@ -321,6 +377,5 @@ This is where you sell in your new self. You might combine your previous experie
       </div>   
     </article>
 </footer>
-  <!-- <script src="./script.js"></script> -->
 </body>
 </html>
