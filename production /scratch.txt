@@ -1,4 +1,5 @@
 SATURDAY;
+
 review general feedback from code coaches.
 bang out desktop friendly styling
 update summary blurb and featured projects
@@ -19,7 +20,6 @@ notes from general feedback:
 2. stopped reading at Project Image Hover Preview section..
 
 to do:
-tablet view
 accessablility testing
 
 
