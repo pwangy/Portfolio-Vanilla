@@ -474,17 +474,17 @@ footer div {
     line-height: 50px;
     letter-spacing: 0;
   }
-
+/* hero block */
   section {
     width: 100%;
   }
   
   .hero {
-    height: 700px;
+    height: 400px;
   }
-  
+
   .socials {
-    margin-top: 100px;
+    margin-top: 50px;
     margin-right: 80px;
     justify-content: flex-end;
   }
@@ -517,11 +517,8 @@ footer div {
   }
 
   .overlay-txt {
-    height: 250px;
-    text-align: left;
-    margin-top: 60px;
-    margin-left: 50px;
-    align-items: flex-start;
+    margin-top: 51px;
+    margin-left: 80px;
   }
 
   #topline {
@@ -530,8 +527,12 @@ footer div {
     letter-spacing: 1.12px;
   }
 
+  #label {
+    margin: 0;
+  }
+
   h1 {
-    margin-top: 28px;
+    margin-top: 0;
     margin-left: 18px;
     font-size: 28px;
   }
@@ -547,6 +548,23 @@ footer div {
     line-height: 61px;
   }
 
+
+}
+
+/* Desktop */
+@media (min-width: 900px) {
+  
+  .hero {
+    height: 700px;
+  }
+  
+  .socials {
+    margin-top: 100px;
+    margin-right: 80px;
+    justify-content: flex-end;
+  }
+
+  
   .profile-img {
     margin-top: 10px;
     margin-left: 421px;
@@ -773,7 +791,5 @@ footer div {
   }
 } */
 
-/* Desktop */
-@media (min-width: 900px) {
 
 } 
