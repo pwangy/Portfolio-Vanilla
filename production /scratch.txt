@@ -1,8 +1,27 @@
-dig into tablet and desktop views
+SATURDAY;
+review general feedback from code coaches.
+bang out desktop friendly styling
+update summary blurb and featured projects
 
+post to LinkedIn
+
+--------
+
+notes from general feedback:
+1. But if you have a `div` that should be clickable then tabindex can be useful!
+
+```html
+<div onclick="doSomethingCool()" tabindex="0">
+  ...
+</div>
+```
+
+2. stopped reading at Project Image Hover Preview section..
+
+to do:
+tablet view
 accessablility testing
 
-review Van's code review feedback
 
 
 
