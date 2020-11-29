@@ -1,73 +1,13 @@
-
-bang out desktop friendly styling
-  review design spec and grab: 
-    font sizes, line spacing, letter spacing, size changes on headers, 
-    note anything else that displays differently on desktop
-
-
-hero height: 969px
-
-social icon holder: 80px
-108px from the top
-415 from right
-11 between each circle
-icon height 32min-38
-
-topline
-51 from bottomline of social container/ 239 from top
-28/33 size/linespace. 1.12 letterspacing
-416 from left
-
-profile img
-80 from right
-332x332
-left edge is 302 from right edge of '+designer'
-
-'frontend developer' 
-82-83/100, 0 letterspacing
- 
-'+ designer'
-50/61, 0 letterspacing
-112 from bottom of hero
-
-lollipop is 97.25 wide in total, dot is about 1/6th width of line
-
-
-body text: 30/50, 0line
-123-4 margins from top/bottom
-
-
-section headers:
-48/58, 0, + 58 padding
-
-
-project section:
-ss opacity layer txt: 
-28/34, 0
-ss:
-522wide x 309height
-
-
-43 between ss and title topline
-~30 margin between project cards
-
-other project section header: 38/47, 0
-other project text: 25/29
-
-
-skills: 25/41
-
-repeated socials:
-circle div: 160x160
-icon min height: 50/51-60
-labels: 25/41
-
-contact header: same as other project sction header
-
-text: 30/50, 0
-
-
 update summary blurb and featured projects
+
+projects to add:
+grab ss and 
+project surve - other
+project movies
+react-native - app
+quiz
+todo
+
 
 post to LinkedIn
 --------
