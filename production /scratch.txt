@@ -1,13 +1,32 @@
-SATURDAY;
-
-review general feedback from code coaches.
-bang out desktop friendly styling
 update summary blurb and featured projects
 
-post to LinkedIn
+projects to add:
+grab ss and 
+project surve - other
+project movies
+react-native - app
+quiz
+todo
+
+
+og - update html head with:
+  <!-- <meta property="og:title" content="Peggy Wang's Portfolio" />
+  <meta
+  property="og:description"
+  content="A portfolio and collection of projects by Peggy"
+  />
+  <meta
+  property="og:image"
+  content="https://netlify.app/assets/og-image.png"
+  />
+  this needs to be an absolute path ^
+  image needs to be 1200x630
+  <meta property="og:url" content="netlify url here/" /> 
+  You can check a preview of how your OpenGraph information will appear when shared by using this site https://www.opengraph.xyz/.
+  -->
+
 
 --------
-
 notes from general feedback:
 1. But if you have a `div` that should be clickable then tabindex can be useful!
 
@@ -16,58 +35,7 @@ notes from general feedback:
   ...
 </div>
 ```
-
-2. stopped reading at Project Image Hover Preview section..
-
-to do:
-accessablility testing
-
-
-
-
-
-/* MOBILE
-viewport size 375x812
-design size 375x5141 */
-
-/* DESKTOP
-viewport size - 1920 x 1080
-design size - 1920 x 7319 */
-
-/* main artboard area */
-/* 
-font-family: 'Roboto', sans-serif;
-font-family: 'Montserrat', sans-serif;
- */
-
-mon:: default, 17px, line height 29
-400 - normal
-700 - bold
-
-roboto:
-400 - normal
-700 - bold
-900 - black
-
-
-lighthouse
-aria
-https://wave.webaim.org/
-w3c validator
-and voiceover
-
-
-thumb:
-303 wide
-179 tall 
-
-desktop:
-522 wide
-309 tall
-
-
 +++++++++++++++++++++++++++++++++
-
 
 ## Test your website 👷🏻‍♂️
 A big part of this project is to test your page so that it works for all the most used browsers and works well for people with dissabilities.
@@ -87,3 +55,18 @@ Follow the [Workflows for cross browser testing](https://developer.mozilla.org/
 The next step is to make sure your webpage works well for people with disabilities. You should follow each step on the [Accessibility testing checklist](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/Accessibility) at the bottom of the page and make adjustments for those errors that you find. Feel free to discuss in Slack what you find and how to solve some issues.
 
 If you publish your website, you can use the built in screen reader on your phone for the screen reader test. Google to see how to turn it on for your phone.
+
+lighthouse
+aria
+https://wave.webaim.org/
+w3c validator
+and voiceover
+
+
+<!-- ### My Thoughts
+
+  This is the area where you really can present yourself and your thoughts about code. It's extremely helpful for recruiters to pick your brain a little and see that you don't just code – you also reflect. 
+
+  Put a link to your reflections for the industry assignment after each sprint here or if you have ever written anything else on this topic. If you have only made LinkedIn posts as your reflection previously, try and get a few words down after next sprint on either medium or as an article on LinkedIn. 
+
+  **Make sure that the whole area is clickable and a link**, meaning the image, headline and text.  -->

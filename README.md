@@ -4,8 +4,8 @@ This portfolio was one of Technigo bootcamp's weekly projects.
 
 Learning Objectives:
 - Create a portfolio following the provided made design specifications
-- Web Accessibility
-- Cross-browser Testing
+<!-- - Web Accessibility -->
+<!-- - Cross-browser Testing -->
 
 
 ## Core Tech
