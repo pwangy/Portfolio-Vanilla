@@ -1,13 +1,76 @@
-SATURDAY;
 
-review general feedback from code coaches.
 bang out desktop friendly styling
+  review design spec and grab: 
+    font sizes, line spacing, letter spacing, size changes on headers, 
+    note anything else that displays differently on desktop
+
+
+hero height: 969px
+
+social icon holder: 80px
+108px from the top
+415 from right
+11 between each circle
+icon height 32min-38
+
+topline
+51 from bottomline of social container/ 239 from top
+28/33 size/linespace. 1.12 letterspacing
+416 from left
+
+profile img
+80 from right
+332x332
+left edge is 302 from right edge of '+designer'
+
+'frontend developer' 
+82-83/100, 0 letterspacing
+ 
+'+ designer'
+50/61, 0 letterspacing
+112 from bottom of hero
+
+lollipop is 97.25 wide in total, dot is about 1/6th width of line
+
+
+body text: 30/50, 0line
+123-4 margins from top/bottom
+
+
+section headers:
+48/58, 0, + 58 padding
+
+
+project section:
+ss opacity layer txt: 
+28/34, 0
+ss:
+522wide x 309height
+
+
+43 between ss and title topline
+~30 margin between project cards
+
+other project section header: 38/47, 0
+other project text: 25/29
+
+
+skills: 25/41
+
+repeated socials:
+circle div: 160x160
+icon min height: 50/51-60
+labels: 25/41
+
+contact header: same as other project sction header
+
+text: 30/50, 0
+
+
 update summary blurb and featured projects
 
 post to LinkedIn
-
 --------
-
 notes from general feedback:
 1. But if you have a `div` that should be clickable then tabindex can be useful!
 
@@ -16,30 +79,6 @@ notes from general feedback:
   ...
 </div>
 ```
-
-2. stopped reading at Project Image Hover Preview section..
-
-to do:
-accessablility testing
-
-
-
-
-
-/* MOBILE
-viewport size 375x812
-design size 375x5141 */
-
-/* DESKTOP
-viewport size - 1920 x 1080
-design size - 1920 x 7319 */
-
-/* main artboard area */
-/* 
-font-family: 'Roboto', sans-serif;
-font-family: 'Montserrat', sans-serif;
- */
-
 mon:: default, 17px, line height 29
 400 - normal
 700 - bold
@@ -49,14 +88,6 @@ roboto:
 700 - bold
 900 - black
 
-
-lighthouse
-aria
-https://wave.webaim.org/
-w3c validator
-and voiceover
-
-
 thumb:
 303 wide
 179 tall 
@@ -64,11 +95,7 @@ thumb:
 desktop:
 522 wide
 309 tall
-
-
 +++++++++++++++++++++++++++++++++
-
-
 ## Test your website 👷🏻‍♂️
 A big part of this project is to test your page so that it works for all the most used browsers and works well for people with dissabilities.
 
@@ -87,3 +114,9 @@ Follow the [Workflows for cross browser testing](https://developer.mozilla.org/
 The next step is to make sure your webpage works well for people with disabilities. You should follow each step on the [Accessibility testing checklist](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/Accessibility) at the bottom of the page and make adjustments for those errors that you find. Feel free to discuss in Slack what you find and how to solve some issues.
 
 If you publish your website, you can use the built in screen reader on your phone for the screen reader test. Google to see how to turn it on for your phone.
+
+lighthouse
+aria
+https://wave.webaim.org/
+w3c validator
+and voiceover
