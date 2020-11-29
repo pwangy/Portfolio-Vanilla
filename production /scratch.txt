@@ -9,7 +9,23 @@ quiz
 todo
 
 
-post to LinkedIn
+og - update html head with:
+  <!-- <meta property="og:title" content="Peggy Wang's Portfolio" />
+  <meta
+  property="og:description"
+  content="A portfolio and collection of projects by Peggy"
+  />
+  <meta
+  property="og:image"
+  content="https://netlify.app/assets/og-image.png"
+  />
+  this needs to be an absolute path ^
+  image needs to be 1200x630
+  <meta property="og:url" content="netlify url here/" /> 
+  You can check a preview of how your OpenGraph information will appear when shared by using this site https://www.opengraph.xyz/.
+  -->
+
+
 --------
 notes from general feedback:
 1. But if you have a `div` that should be clickable then tabindex can be useful!
@@ -19,23 +35,8 @@ notes from general feedback:
   ...
 </div>
 ```
-mon:: default, 17px, line height 29
-400 - normal
-700 - bold
-
-roboto:
-400 - normal
-700 - bold
-900 - black
-
-thumb:
-303 wide
-179 tall 
-
-desktop:
-522 wide
-309 tall
 +++++++++++++++++++++++++++++++++
+
 ## Test your website 👷🏻‍♂️
 A big part of this project is to test your page so that it works for all the most used browsers and works well for people with dissabilities.
 
@@ -60,3 +61,12 @@ aria
 https://wave.webaim.org/
 w3c validator
 and voiceover
+
+
+<!-- ### My Thoughts
+
+  This is the area where you really can present yourself and your thoughts about code. It's extremely helpful for recruiters to pick your brain a little and see that you don't just code – you also reflect. 
+
+  Put a link to your reflections for the industry assignment after each sprint here or if you have ever written anything else on this topic. If you have only made LinkedIn posts as your reflection previously, try and get a few words down after next sprint on either medium or as an article on LinkedIn. 
+
+  **Make sure that the whole area is clickable and a link**, meaning the image, headline and text.  -->
