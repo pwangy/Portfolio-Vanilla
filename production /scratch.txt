@@ -1,12 +1,4 @@
-update summary blurb and featured projects
-
-projects to add:
-grab ss and 
-project surve - other
-project movies
-react-native - app
-quiz
-todo
+check padding-bottom of Other Project section across media queries
 
 
 og - update html head with:
