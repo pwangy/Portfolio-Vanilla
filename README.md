@@ -1,5 +1,5 @@
 # Portfolio
-This portfolio was one of Technigo bootcamp's weekly projects.
+This portfolio build as one of Technigo bootcamp's weekly projects.
 
 
 Learning Objectives:
