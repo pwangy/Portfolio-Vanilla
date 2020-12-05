@@ -3,7 +3,7 @@ This portfolio was one of Technigo bootcamp's weekly projects.
 
 
 Learning Objectives:
-- Create a portfolio following the provided made design specifications
+- Create a portfolio following the provided design specifications
 <!-- - Web Accessibility -->
 <!-- - Cross-browser Testing -->
 
