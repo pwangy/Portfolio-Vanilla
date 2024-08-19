@@ -16,3 +16,5 @@ Learning Objectives:
 
 ## View it live
 https://pwangy-portfolio.netlify.app/
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/74f91b9a-0e89-4120-8fd8-e92f189efecb/deploy-status)](https://app.netlify.com/sites/pwangy-portfolio/deploys)
